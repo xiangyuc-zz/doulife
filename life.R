@@ -7,7 +7,7 @@ require(ggthemes)
 readLifeTables<-function(){
   category<-c("food","fashion","bmm","cool","home","city","travel")
   tribe.var<-c("man.low","man.high","woman.low","woman.high")
-  tribe.name<-c("??????","??????","??????","??????")
+  tribe.name<-c("男白","男高","女白","女高")
   url.base<-"file:///C:/Users/xiangyuc/Desktop/output/down/2/"
   #generate htm files urls
   temp<-formatC(0:27,width=3,format="d",flag=0)
